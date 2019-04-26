@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>FORMULARIO</title>
+	<link rel="stylesheet" href="otross.css">
+	<script src="script.js"></script>
+</head>
+<body style="background-color: #848D8E;">
+	    <div class="menu">
+		    <ul>
+		      <li><a href="index.html">INICIO</a></li> 	
+			  <li><a href="otro.html">EJERCICIO 01</a></li>
+			  <li><a href="otross.html">EJERCICIO 02</a></li>
+		    </ul>
+	    </div>
+    <br>
+    <div class="form">
+        <table>
+            <tr>
+                <tr>
+                  <h3>Seleccione un Producto</h3>
+                    <select id="productos" >
+                       <option value="25.00">Teclado S/.25.00</option>
+                       <option value="30.00">Mouse S/.30.00</option>
+                       <option value="50.00">Parlantes S/.250.00</option>
+                       <option value="300.00">Monitor S/.350.00</option>
+                       <option value="400.00">Microprocesador S/.400.00</option>
+                       <option value="250.00">Placa S/.250.00</option>
+                       <option value="100.00">Fuente AMX S/.100.00</option>
+                    </select>
+                  <h3>Ingrese Cantidad</h3>
+                     <input type="number" name="cantidad" id="cantidad" value="1"> 
+                     <br>
+                     <br>
+                     <input type="button" value="Agregar" onclick="ShowSelected()" >
+                </tr>
+                <tr>
+                    <div class="carro">
+                        <h4>CARRO DE COMPRAS</h4>
+                        <div id="carrito"></div>
+                        <h4>IMPORTE VENTA:</h4>
+                        <div id="importe"></div>
+                        <h4>IGV:</h4>
+                        <div id="igv"></div>
+                        <h4>TOTAL:</h4>
+                        <div id="total"></div>
+                    </div>
+                </tr>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>

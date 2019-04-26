@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>FORMULARIO</title>
+	<link rel="stylesheet" href="otro.css">
+	<script src="script.js"></script>
+</head>
+<body style="background-color: #848D8E;">
+	    <div class="menu">
+		    <ul>
+			  <li><a href="index.html">INICIO</a></li> 	
+			  <li><a href="otro.html">EJERCICIO 01</a></li>
+			  <li><a href="otross.html">EJERCICIO 02</a></li>
+		    </ul>
+	    </div>
+
+	<br>
+	<div class="contenido">
+		<div class="formulario">
+			<div class="datos">
+				<label>Primer peso</label>
+				<input type="number" name="edad" id="p1" onblur="validar()">
+			</div>
+			<br>
+			<div class="datos">
+				<label>Segundo peso</label>
+				<input type="number" name="peso" id="p2" onblur="validar()">
+			</div>
+			<br>
+			<div class="datos">
+				<label>Tercer peso</label>
+				<input type="number" name="peso" id="p3" onblur="validar()">
+			</div>
+			<br>
+			<div class="datos">
+				<label>Cuarto peso</label>
+				<input type="number" name="peso" id="p4" onblur="validar()">
+			</div>
+			<br>
+			<div class="datos">
+				<label>Quinto peso</label>
+				<input type="number" name="peso" id="p5" onblur="validar()">
+			</div>
+			<br>
+			<div class="datos">
+				<label>Sexto peso</label>
+				<input type="number" name="peso" id="p6" onblur="validar()"> 
+			</div>
+			<br>
+			<div class="datos">
+				<label>Septimo peso</label>
+				<input type="number" name="peso" id="p7" onblur="validar()">
+			</div>
+            <br>
+			<div class="boton">
+				<button onclick="calcularpeso()">Calcular</button>
+				<button class="btn"  onclick="ordenar()">Ordenar</button>
+			</div>
+			<br>
+		</div>
+		<div id="resultado"></div>
+		<div id="resultado1"></div>
+	</div>
+</body>
+</html>
